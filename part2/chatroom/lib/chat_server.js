@@ -54,7 +54,6 @@ var joinRoom = function(socket, room) {
 
 var handleNameChangeAttempt = function (socket, nickNames, namesUsed) {
     socket.on("nameAttempt", function(name) {
-        if (name.indexOf
-        )
+        // if (name.indexOf)
     });
 };
