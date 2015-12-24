@@ -47,8 +47,8 @@ var staticFileServer = function() {
         console.log("Serving " + absPath);
         serveStaticFile(fs, path, mime, response, cache, absPath);
     });
-    server.listen(8080, function() {
-        console.log("Server listening on port 8080.");
+    server.listen(8081, function() {
+        console.log("Server listening on port 8081.");
     });
 
     var chatServer = require("./lib/chat_server");
